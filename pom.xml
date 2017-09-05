@@ -37,6 +37,7 @@
   </properties>
 
   <build>
+    <finalName>${project.artifactId}</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -93,7 +94,7 @@
         <version>2.4</version>
         <configuration>
           <descriptor>src/assembly/bin.xml</descriptor>
-          <finalName>classist-dist-${project.version}</finalName>
+          <finalName>classist-dist</finalName>
         </configuration>
         <executions>
           <execution>
