@@ -49,7 +49,7 @@ import javax.swing.event.ListSelectionListener;
  * 
  * @author andersonlf@gmail.com
  */
-final class Classist extends JFrame implements ListSelectionListener, DocumentListener, Runnable {
+public class Classist extends JFrame implements ListSelectionListener, DocumentListener, Runnable {
 
   private static final long serialVersionUID = -5829213504411524998L;
   private static final String PREFS_LAST_SEARCH_DIRECTORY = "LastSearchDirectory";
