@@ -47,7 +47,7 @@ import javax.swing.event.ListSelectionListener;
 /**
  * Classist
  * 
- * @author luke.biddell@gmail.com
+ * @author andersonlf@gmail.com
  */
 final class Classist extends JFrame implements ListSelectionListener, DocumentListener, Runnable {
 
